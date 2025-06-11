@@ -23,6 +23,10 @@ This project is a modular company research agent built using **LangGraph** and t
 ### 🧾 Attribution
 No external repositories were directly used—this is original work. However, the LangGraph Deep Research blog series served as a conceptual and technical reference, particularly in shaping the state modeling and multi-node orchestration strategies.
 
+Additionally, AI tools were used to support development efficiency:
+ - Cursor (with Claude): Assisted in scaffolding the initial structure and refining key logic flows
+ - GPT-mini: Used for auto-generating docstrings and improving inline documentation
+
 
 ### ✍️ Author’s Note
 
