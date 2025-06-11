@@ -1,0 +1,15 @@
+{
+    "dockerfile_lines": [
+      "RUN apt -y update && apt -y upgrade && \\",
+      "    apt -y install gcc libc-dev libgl1 libglib2.0-0"
+    ],
+    "graphs": {
+      "agent": "./src/graph.py:agentic_graph"
+    },
+    "env": ".env",
+    "python_version": "3.11",
+    "dependencies": [
+      "./src/",
+      "langchain_openai"
+    ]
+  }
