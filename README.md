@@ -37,14 +37,6 @@ Due to current professional obligations, I was only able to dedicate around **3.
 
 ---
 
-## Current Structure of the LangGraph Model
-
-<p align="center">
-  <img src="./documents/graph-structure.png" alt="LangGraph Model Structure">
-</p>
-
----
-
 ## Steps to Run the Project
 
 Follow the steps below to get the project up and running on your local machine or server:
