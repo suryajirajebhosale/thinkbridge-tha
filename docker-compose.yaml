@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  company-researcher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: company-researcher
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SERP_API_KEY=${SERP_API_KEY}
+      - PYTHONPATH=/app
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/code
+    env_file:
+      - .env
+    ports:
+      - "8888:8888"
+      - "8000:8000"
+    networks:
+      - researcher-network
+networks:
+  researcher-network:
+    driver: bridge
+
